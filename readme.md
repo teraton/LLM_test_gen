@@ -18,9 +18,12 @@ start the small API_app.py to the backround to act as a server for the endpoints
 
 to run the test generator, run the CLI_LLM_generatory.py file. this will generate tests for the chosen function in endpoints.py file
 
-pipenv run python CLI_LLM_generator.py  <file_path>
+pipenv run python CLI_LLM_generator.py  <file_path>  <- Defaults to endpoints.py
 
 Replace <file_path> with the path to the Python file containing endpoint definitions. The application will prompt you to select a function from the file, and then it will generate unit tests for the selected function.
+
+TODO run.py
+
 
 ## Features
 
