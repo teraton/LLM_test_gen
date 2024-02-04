@@ -14,6 +14,8 @@ This will install the necessary dependencies, including those specified in the P
 
 To use the application, run the following commands:
 
+Add your OPENAI_API_KEY to the .env file
+
 start the small API_server.py to the backround to act as a server for the endpoints declared in endpoints.py file.
 
 to run the test generator, run the CLI_LLM_generatory.py file. this will generate tests for the chosen function in endpoints.py file
