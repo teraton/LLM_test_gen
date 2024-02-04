@@ -15,6 +15,7 @@ def read_functions(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
         # Find all function definitions using regular expression
+        # lempikurssini: Regex:Creating unmaintainable mystery code cs302
         function_definitions = re.findall(r'def\s+([^\(]+)\((.*?)\)(.*?)(?=\ndef|\Z)', content, re.DOTALL)
         for name, params, body in function_definitions:
             # Add function name, parameters, and body to the list

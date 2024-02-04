@@ -14,7 +14,7 @@ This will install the necessary dependencies, including those specified in the P
 
 To use the application, run the following commands:
 
-start the small API_app.py to the backround to act as a server for the endpoints declared in endpoints.py file.
+start the small API_server.py to the backround to act as a server for the endpoints declared in endpoints.py file.
 
 to run the test generator, run the CLI_LLM_generatory.py file. this will generate tests for the chosen function in endpoints.py file
 
@@ -26,7 +26,7 @@ Replace <file_path> with the path to the Python file containing endpoint definit
 
 - Select a function from an endpoints file.
 - Generate unit tests based on the selected function.
-- Utilizes the ChatGPT model for generating test cases.
+- Utilizes the ChatGPT model (3.5-turbo) for generating test cases.
 
 
 ## TODO
