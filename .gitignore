@@ -1,0 +1,4 @@
+.env
+Pipfile.lock
+test_cases
+/__pycache__
